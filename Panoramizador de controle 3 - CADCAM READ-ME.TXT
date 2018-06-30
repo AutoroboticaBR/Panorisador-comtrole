@@ -1,0 +1,44 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'Panoramizador de controle 3.LYT'.
+CADCAM generated at 11:06:10 on sexta-feira, 12 de dezembro de 2008.
+
+File List
+---------
+Bottom Copper           : Panoramizador de controle 3 - CADCAM Bottom Copper.TXT
+Bottom SMT Paste Mask   : Panoramizador de controle 3 - CADCAM Bottom SMT Paste Mask.TXT
+Drill                   : Panoramizador de controle 3 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=40th                                      DRAW
+D11	CIRCLE	D=30th                                      DRAW
+D12	CIRCLE	D=60th                                      FLASH
+D13	CIRCLE	D=70th                                      FLASH
+D14	CIRCLE	D=100th                                     FLASH
+D15	SQUARE	S=50th                                      FLASH
+D16	CIRCLE	D=50th                                      FLASH
+D17	CIRCLE	D=79th                                      FLASH
+D18	SQUARE	S=80th                                      FLASH
+D19	CIRCLE	D=8th                                       DRAW
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	20th (0-15)
+T02	60th (0-15)
+T03	45th (0-15)
+T04	30th (0-15)
+T05	47th (0-15)
+T06	40th (0-15)
+
+
+[END OF FILE]
